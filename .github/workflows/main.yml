@@ -17,5 +17,6 @@ jobs:
         ssh_host: 52.166.169.121
         ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
         ssh_user: ${{ secrets.SSH_USER }}
+        docker_compose_filename: travis.yml
         docker_compose_prefix: example_com
         use_stack: 'true'
