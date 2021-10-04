@@ -19,4 +19,4 @@ jobs:
         ssh_user: ${{ secrets.SSH_USER }}
         docker_compose_filename: .travis.yml
         docker_compose_prefix: example_com
-        use_stack: 'true'
+        use_stack: 'false'
