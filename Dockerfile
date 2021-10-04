@@ -2,7 +2,7 @@ FROM busybox:latest
 ENV PORT=8000
 LABEL maintainer="Chris <c@crccheck.com>"
 
-ADD index.html /var/www/html/index.html
+ADD index.html /usr/share/nginx/html/index.html
 
 # EXPOSE $PORT
 
